@@ -1,15 +1,23 @@
 <template>
+    <!-- Шаблон страницы "О Нас" -->
     <div>
+        <!-- Контейнер с отступом -->
         <div class="container my-5">
+            <!-- Карточка с информацией о компании -->
             <div class="card mb-3" style="max-width: 1500px;">
                 <div class="row g-0">
+                    <!-- Колонка с изображением -->
                     <div class="col-md-6 d-flex justify-content-center">
                         <img src="../assets/Cyber.jpg" class="img-fluid rounded-start" alt="">
                     </div>
+                    <!-- Колонка с текстом -->
                     <div class="col-md-6">
                         <div class="card-body">
+                            <!-- Заголовок -->
                             <h5 class="card-title text-center">Об Академии</h5>
+                            <!-- Текст описания -->
                             <p class="card-text">
+                            <!-- Список с пунктами -->
                             <ul>
                                 <li>Академия киберспорта "X-GAMES" представляет собой передовой
                                     образовательный центр, нацеленный на выявление и развитие талантов в мире
@@ -43,8 +51,8 @@
 
 <script>
 export default {
-    name: 'AboutUs',
+    name: 'AboutUs', // Имя компонента
 }
 </script>
 
-<style scoped></style>
+<style scoped></style> <!-- Локальные стили для компонента -->

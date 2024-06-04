@@ -1,7 +1,11 @@
 <template>
+    <!-- Шаблон компонента Disqus -->
     <div>
+        <!-- Контейнер с отступом -->
         <div class="container my-5">
+            <!-- Место для вставки комментариев Disqus -->
             <div id="disqus_thread"></div>
+            <!-- Сообщение для пользователей, если JavaScript отключен -->
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
                     by
                     Disqus.</a></noscript>
@@ -11,9 +15,10 @@
 
 <script>
 export default {
-    name: 'DisQus',
+    name: 'DisQus', // Имя компонента
 };
-(function () { // DON'T EDIT BELOW THIS LINE
+// Скрипт для загрузки Disqus
+(function () {
     var d = document, s = d.createElement('script');
     s.src = 'https://http-localhost-8080-r2ri9xbjg5.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
@@ -21,4 +26,4 @@ export default {
 })();
 </script>
 
-<style scoped></style>
+<style scoped></style> <!-- Локальные стили для компонента -->

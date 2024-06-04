@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container my-5">
-            <h1 class="text-center" style="color: white;">Дисциплины</h1>
+            <h1 class="text-center" style="color: black;">Дисциплины</h1>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
